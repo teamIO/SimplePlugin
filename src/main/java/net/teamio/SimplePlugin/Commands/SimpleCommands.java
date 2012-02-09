@@ -6,14 +6,14 @@ import org.spout.api.command.annotated.Command;
 import org.spout.api.command.annotated.CommandPermissions;
 import org.spout.api.exception.CommandException;
 
-import net.teamio.SimplePlugin.SimpleSpoutPlugin;
+import net.teamio.SimplePlugin.SimplePlugin;
 
 public class SimpleCommands {
 
 	@SuppressWarnings("unused")
-	private final SimpleSpoutPlugin plugin;
+	private final SimplePlugin plugin;
 
-	public SimpleCommands(SimpleSpoutPlugin p) {
+	public SimpleCommands(SimplePlugin p) {
 		plugin = p;
 	}
 

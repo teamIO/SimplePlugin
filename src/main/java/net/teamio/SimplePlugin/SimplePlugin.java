@@ -10,7 +10,7 @@ import org.spout.api.command.annotated.SimpleAnnotatedCommandExecutorFactory;
 import org.spout.api.command.annotated.SimpleInjector;
 import org.spout.api.plugin.CommonPlugin;
 
-public class SimpleSpoutPlugin extends CommonPlugin {
+public class SimplePlugin extends CommonPlugin {
 
 	@Override
 	public void onDisable() {

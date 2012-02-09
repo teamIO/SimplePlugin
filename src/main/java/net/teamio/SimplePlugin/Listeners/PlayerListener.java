@@ -1,6 +1,6 @@
 package net.teamio.SimplePlugin.Listeners;
 
-import net.teamio.SimplePlugin.SimpleSpoutPlugin;
+import net.teamio.SimplePlugin.SimplePlugin;
 
 import org.spout.api.Game;
 import org.spout.api.event.EventHandler;
@@ -9,10 +9,10 @@ import org.spout.api.event.player.PlayerJoinEvent;
 
 public class PlayerListener implements Listener {
 
-	private final SimpleSpoutPlugin plugin;
+	private final SimplePlugin plugin;
 	private final Game game;
 	
-	public PlayerListener(SimpleSpoutPlugin p){
+	public PlayerListener(SimplePlugin p){
 		plugin = p;
 		game = p.getGame();
 	}
