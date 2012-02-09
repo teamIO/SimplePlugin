@@ -1,6 +1,6 @@
-package net.teamio.SimpleSpoutPlugin.Listeners;
+package net.teamio.SimplePlugin.Listeners;
 
-import net.teamio.SimpleSpoutPlugin.SimpleSpoutPlugin;
+import net.teamio.SimplePlugin.SimpleSpoutPlugin;
 
 import org.spout.api.Game;
 import org.spout.api.event.EventHandler;

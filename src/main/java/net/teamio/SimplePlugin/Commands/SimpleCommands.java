@@ -1,4 +1,4 @@
-package net.teamio.SimpleSpoutPlugin.Commands;
+package net.teamio.SimplePlugin.Commands;
 
 import org.spout.api.command.CommandContext;
 import org.spout.api.command.CommandSource;
@@ -6,7 +6,7 @@ import org.spout.api.command.annotated.Command;
 import org.spout.api.command.annotated.CommandPermissions;
 import org.spout.api.exception.CommandException;
 
-import net.teamio.SimpleSpoutPlugin.SimpleSpoutPlugin;
+import net.teamio.SimplePlugin.SimpleSpoutPlugin;
 
 public class SimpleCommands {
 

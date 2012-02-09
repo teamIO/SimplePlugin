@@ -1,7 +1,7 @@
-package net.teamio.SimpleSpoutPlugin;
+package net.teamio.SimplePlugin;
 
-import net.teamio.SimpleSpoutPlugin.Commands.SimpleCommands;
-import net.teamio.SimpleSpoutPlugin.Listeners.PlayerListener;
+import net.teamio.SimplePlugin.Commands.SimpleCommands;
+import net.teamio.SimplePlugin.Listeners.PlayerListener;
 
 import org.spout.api.Game;
 import org.spout.api.command.CommandRegistrationsFactory;
