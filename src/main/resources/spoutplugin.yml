@@ -1,0 +1,11 @@
+name: SimpleSpoutPlugin
+version: ${build.number}
+description: Shows off the abilities of Spout
+author: teamIO
+website: http://www.teamio.net
+
+main: net.teamio.SimpleSpoutPlugin.SimpleSpoutPlugin
+protocol: Minecraft ${minecraft.version}
+load: startup
+
+platform: BOTH

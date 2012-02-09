@@ -5,22 +5,15 @@
 	<artifactId>SimpleSpoutPlugin</artifactId>
 	<packaging>jar</packaging>
 	<version>dev-SNAPSHOT</version>
-	<name>bukkitplugin</name>
+	<name>spoutplugin</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.bukkit</groupId>
-			<artifactId>bukkit</artifactId>
-			<version>1.1-R4-SNAPSHOT</version>
-			<type>jar</type>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.getspout</groupId>
-			<artifactId>spoutpluginapi</artifactId>
+			<groupId>org.spout</groupId>
+			<artifactId>spoutapi</artifactId>
 			<version>dev-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>compile</scope>
@@ -45,10 +38,6 @@
 		</plugins>
 	</build>
 	<repositories>
-		<repository>
-			<id>bukkit-repo</id>
-			<url>http://repo.bukkit.org/content/groups/public/</url>
-		</repository>
 		<repository>
 			<id>spout-repo</id>
 			<url>http://repo.spout.org/</url>
