@@ -5,7 +5,8 @@ author: teamIO
 website: http://www.teamio.net
 
 main: net.teamio.SimplePlugin.SimplePlugin
-protocol: Minecraft ${minecraft.version}
 load: startup
-
 platform: BOTH
+
+data:
+    protocol: ${minecraft.version}
